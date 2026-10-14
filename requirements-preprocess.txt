@@ -1,0 +1,7 @@
+# Dependencies for prepare_video_for_gavs.py.
+# Install exactly one OpenCV distribution in an environment. The GaVS training
+# requirements already install OpenCV packages, so do not blindly install this
+# file on top of two existing OpenCV distributions.
+numpy==1.26.4
+Pillow>=10,<12
+opencv-contrib-python==4.10.0.84
